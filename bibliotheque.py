@@ -91,7 +91,7 @@ def trier_livres(bibliotheque):
             bibliotheque,
             key=lambda x: x[vraie_cle] if x[vraie_cle] is not None else -1
         )
-        print(f"\n📊 Livres triés par {critere} :")
+        print(f"\n Livres triés par {critere} :")
         afficher_livres(livres_tries)
     else:
         print(" Critère invalide. Choisis : annee, auteur ou note.")
